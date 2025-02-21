@@ -27,8 +27,3 @@ LOKI-Landing-Page/
 │── styles.css
 └── assets/ (images, icons, etc.)
 
-💡 Reflection (Post-Completion)
-Once completed, I will add insights on what I learned and the challenges I faced.
-
-📝 Acknowledgments
-Special thanks to The Odin Project and other resources that guided this project.

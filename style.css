@@ -1,0 +1,183 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0B3D2E;
+    color: #D4AF37;
+    font-size: large;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #D4AF37;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+.introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #0B3D2E; /* Asgard Green */
+    color: #D4AF37; /* Gold */
+}
+
+.intro-text {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.intro-text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.follow-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #0B3D2E;
+    background-color: #D4AF37;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.follow-btn:hover {
+    background-color: #FFD700;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+}
+
+.intro-image {
+    width: 50%;
+    text-align: right;
+}
+
+.intro-image img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(212, 175, 55, 0.6); /* Gold glow */
+}
+.family {
+    text-align: center;
+    padding: 50px;
+    background-color:  #D4AF37; /* Asgard Green */
+    color:  #0B3D2E; /* Gold */
+}
+
+.family h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.family-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.family-member {
+    text-align: center;
+    width: 180px;
+}
+
+.family-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #0B3D2E; /* Gold border */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.family-member img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(16, 138, 36, 0.219);
+}
+
+.family-member h3 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+}
+
+.family-member p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+.iconic-line {
+    background-color: #0B3D2E; /* Deep Asgard Green */
+    text-align: center;
+    padding: 50px;
+}
+
+.iconic-line h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #D4AF37; /* Gold */
+    text-transform: uppercase;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.iconic-line h2:hover {
+        text-shadow: 0 0 10px rgba(212, 175, 55, 0.8), 
+                     0 0 20px rgba(212, 175, 55, 0.6), 
+                     0 0 30px rgba(212, 175, 55, 0.4);
+}
+.footer {
+    background-color:  #D4AF37; /* Asgard Green */
+    color: #0B3D2E; /* Gold */
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a {
+    color: #0B3D2E;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #062e10; 
+    text-shadow: 0 0 10px rgba(11, 138, 68, 0.8);
+}
+
+    
+
