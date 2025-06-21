@@ -11,7 +11,7 @@ This project is a **landing page** for "LOKI," designed using **HTML** and **CSS
 - ✅ Improving code organization and readability  
 
 ## 🚀 Live Demo  
-🔗 _Coming soon..._ (Add link if deployed)  
+🔗 _Coming soon..._   
 
 ## 📷 Project Preview  
 _Add a screenshot or GIF of your landing page here once completed._
